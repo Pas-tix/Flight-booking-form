@@ -1,0 +1,135 @@
+section, h2, h6, form, label {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 3em;
+    background: rgba(0, 0, 0, 0.78);
+    width: 65%;
+    margin: 0 auto;
+
+}
+h2.subheading, h3.subheading {
+
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 0.4em;
+    padding: 0px 25px 10 0px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #0091cd;
+    font-family: 'Raleway', sans-serif;
+}
+.radio {
+    text-align: left;
+    margin: 0.7em 0;
+}
+.radio h6{
+    display: inline;
+    margin-top: 10px;
+    color: #0091cd;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-bottom: 0.7em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.radio ul {
+
+        display: inline;
+}
+
+.radio-buttons li input[type="radio"] {
+    cursor: pointer;
+}
+.radio-buttons li label {
+    color:#fff;
+    font-size: 13.5px;
+    font-weight: 400;letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper input[type="text"], .wrapper input[type="email"],
+.wrapper textarea, select.form-control, input#datepicker {
+    width: 100%;
+    font-weight: 300;
+    color :#fff;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.27  );
+    box-sizing: border-box;
+    font-family: 'roboto', san-serif;
+            
+}
+.wrapper textarea {
+    resize: none;
+    height: 80px;
+}
+.field-spc {
+    margin-bottom: 1em;
+}
+.form-agile {
+    width:100%;
+}
+.wrapper input[type="submit"],
+.wrapper input[type="reset"] {
+    text-transform: capitalize;
+    background: #0091cd;
+    color: #fff;
+    padding: 0.5em 4em;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 1em;
+    float: left;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.5s all;
+}
+.wrapper input[type="submit"] {
+    margin-right: 1.5em;
+    background: #b2741c;
+}
+.wrapper input[type="submit"]:hover {
+    background-color: #0091cd;
+    color: #fff;
+}
+
+.wrapper input[type="reset"]:hover {
+    background: #b2741c;
+    color: #fff;
+}
+.wrapper::-webkit-input-placeholder {
+    color: #fff;
+}
+.wrapper::-moz-placeholder{
+    color: #fff;
+}
+.wrapper::-ms-input-placeholder {
+    color: #fff;
+}
+ul.radiom-button li {
+    display:inline-block;
+    margin: 0em 2em;
+}
